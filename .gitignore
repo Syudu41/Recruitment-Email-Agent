@@ -60,6 +60,8 @@ python-env/
 *.swp
 *.swo
 *~
+resume/*.pdf
+resume/*.docx
 
 # ========================================
 # OS FILES
@@ -78,3 +80,4 @@ Thumbs.db
 *.log
 *.tmp
 *.temp
+*.txt
