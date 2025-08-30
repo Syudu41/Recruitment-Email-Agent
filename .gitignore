@@ -1,0 +1,80 @@
+# Recruitment Email Agent - .gitignore
+
+# ========================================
+# SENSITIVE CONFIGURATION FILES
+# ========================================
+email_config.json          # Contains Gmail credentials - NEVER commit!
+.env                       # Environment variables (if used)
+
+# ========================================  
+# PERSONAL DATA FILES
+# ========================================
+resume/                    # Personal resume files
+sent_emails.json          # Email activity logs with personal info
+
+# ========================================
+# PYTHON FILES
+# ========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ========================================
+# VIRTUAL ENVIRONMENT (ALL VARIATIONS)
+# ========================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+recruitment-env/
+myenv/
+python-env/
+*-env/
+
+# ========================================
+# IDE & EDITOR FILES
+# ========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========================================
+# OS FILES
+# ========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ========================================
+# LOGS & TEMPORARY FILES
+# ========================================
+*.log
+*.tmp
+*.temp
