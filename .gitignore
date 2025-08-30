@@ -81,3 +81,5 @@ Thumbs.db
 *.tmp
 *.temp
 gmail-pass.txt
+setup_details.txt
+template*.txt
